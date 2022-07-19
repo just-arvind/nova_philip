@@ -44,4 +44,6 @@ Step 6:Open Another Terminal and run  Command
       cd .\phillipnova_api\
       pip install -r requirement.txt
       python app.py
+
+step 7:Go to http://localhost:3000/
  

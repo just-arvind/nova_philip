@@ -9,7 +9,7 @@ const TableData = () => {
   const [value, setValue] = useState(allData)
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/get_data')
+    axios.get('http://localhost:5080/get_data')
       .then(function (response) {
         setAllData(response.data?.phillip_nova);
         console.log(response.data?.phillip_nova)
@@ -21,7 +21,7 @@ const TableData = () => {
   }, []);
 
   const handleData = async () => {
-    await axios.get('http://127.0.0.1:5000/get_data')
+    await axios.get('http://localhost:5080/get_data')
       .then(function (response) {
         setAllData(response.data?.phillip_nova);
         setValue(response.data?.phillip_nova)
@@ -34,7 +34,7 @@ const TableData = () => {
 
   const handleData2 = async () => {
     setInterval(() => {
-      axios.get('http://127.0.0.1:5000/get_data')
+      axios.get('http://localhost:5080/get_data')
         .then(function (response) {
           setAllData(response.data?.phillip_nova);
           setValue(response.data?.phillip_nova)

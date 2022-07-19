@@ -116,4 +116,4 @@ if __name__ == '__main__':
     data_updating_thread = threading.Thread(target=updating_data)
     data_updating_thread.start()
     # app.run(host='0.0.0.0', port=5080)
-    app.run()
+    app.run(host='localhost', port=5080)
