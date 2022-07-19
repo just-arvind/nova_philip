@@ -1,0 +1,40 @@
+.popup{
+    display: flex;
+    background-color: red;
+    position: absolute;
+    justify-self: center;
+    align-items: center;
+}
+
+.o-00{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    
+}
+.o-00:nth-child(even){
+    background-color: grey;
+}
+
+.btn-01{
+    /* width: 50%; */
+    height: 50px;
+    border: 0px  !important;
+    background-color: blue;
+}
+.btn-02{
+    /* width: 50%; */
+    height: 50px;
+    background-color: red;
+}
+.btn-03{
+    /* width: 50%; */
+    height: 30px;
+    /* text-align: center; */
+    background-color: green;
+}
+.btn-04{
+    /* width: 50%; */
+    height: 30px;
+    background-color: red;
+}
