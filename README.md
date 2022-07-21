@@ -1,49 +1,53 @@
-Software Needed To run Website
-1) Node.js
-2)Python
+## Software Needed To run Website :-
+  1)`Node.js`
+  2) `Python`
+ 
+# Download Node From here:-  
 
+## Download Link:-
+	https://nodejs.org/en/download/
 
-Node:-
-Follow this Link to Download Node.js For window
+ ###### Follow this Link to Download Node.js For window
 https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
 
-
-Follow this Link to Download Node.js For mac
+###### Follow this Link to Download Node.js For mac
 https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
 
+# Download Python From here:-
 
-Python:-
-Follow this Link to Download Python For window
+## Download Link:-	
+	https://www.python.org/downloads/
+
+
+###### Follow this Link to Download Python For window
  https://www.tutorialspoint.com/how-to-install-python-in-windows
 
-
-Follow this Link to Download Python For mac
+###### Follow this Link to Download Python For mac
 https://www.dataquest.io/blog/installing-python-on-mac/#:~:text=Downloading%20the%20latest%20Python%20version,package%20from%20the%20Python%20website.
 
 
 
-Step to Donload Phillip Nova From Github:
+# Download  Phillip Nova Source Code from Github:
 
 Step 1:Go To This Link
 	https://github.com/lakebrains-technologies/nova_philip
 
-Step 2: Click on Code
-	    After That Download Zip File
+Step 2: Click on Code Button
+	    After That click on Download Zip
 
-Step 3:Extract zip File
+Step 3:After that  extract zip file.
 
-Step 4:Open in Terminal
+Step 4:Open the extracted File 
 
-Step 5:Open Terminal
+Step 5:Run these Command in terminal 
+	   `npm i`    
+	   `npm run start`
 
-Step 6:Run Command 
-	   1)npm i
-	   2)npm run start
+Step 6:Open Another Terminal and run these Command 
+      `cd .\phillipnova_api\`
+      `pip install -r requirement.txt`
+      `python app.py`
 
-Step 6:Open Another Terminal and run  Command 
-      cd .\phillipnova_api\
-      pip install -r requirement.txt
-      python app.py
+step 7:Then Go to http://localhost:3000/
 
-step 7:Go to http://localhost:3000/
- 
+
