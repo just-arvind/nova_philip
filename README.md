@@ -1,6 +1,6 @@
 ## Software Needed To run Website :-
-  1)`Node.js`
-  2) `Python`
+  1)`Node.js`<br>
+  2) `Python`<br>
  
 # Download Node From here:-  
 
@@ -39,14 +39,14 @@ Step 3:After that  extract zip file.
 
 Step 4:Open the extracted File 
 
-Step 5:Run these Command in terminal 
-	   `npm i`    
+Step 5:Run these Command in terminal <br>
+	   `npm i`    <br>
 	   `npm run start`
 
-Step 6:Open Another Terminal and run these Command 
-      `cd .\phillipnova_api\`
-      `pip install -r requirement.txt`
-      `python app.py`
+Step 6:Open Another Terminal and run these Command <br>
+      `cd .\phillipnova_api\`<br>
+      `pip install -r requirement.txt`<br>
+      `python app.py`<br>
 
 step 7:Then Go to http://localhost:3000/
 
